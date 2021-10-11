@@ -32,10 +32,11 @@ public class FPSInfoTile extends TileBase {
 
     @Override
     public boolean isAvailable() {
-        final String fpsInfoSysNode = mContext.getResources().getString(
+        /* final String fpsInfoSysNode = mContext.getResources().getString(
                 com.android.internal.R.string.config_gamingmode_fpsInfoSysNode);
         boolean fpsInfoSupported = !TextUtils.isEmpty(fpsInfoSysNode);
-        return fpsInfoSupported;
+        return fpsInfoSupported;*/
+        return true; // Assume it's avaialble
     }
 
 }
