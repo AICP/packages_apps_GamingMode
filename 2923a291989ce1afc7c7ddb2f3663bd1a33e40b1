@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "247c003c_e3210b1e",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1416
+      },
+      "writtenOn": "2021-10-11T17:52:14Z",
+      "side": 1,
+      "message": "Note to be squashed into the parent change\n\nTest:\n- Make sure you do not have changes #112020 AND  #112021 in your tress\n- Make sure FPSInfo QS tile works \n- Start Gaming Mode, make the gaming mode overlay visible, observe FPS icon on overlay\n- Tap the FPS icon, observe the fps display on the left side of the display ",
+      "revId": "2923a291989ce1afc7c7ddb2f3663bd1a33e40b1",
+      "serverId": "9f904cbb-a964-4fab-a7dc-5cfc4d5c238b"
+    }
+  ]
+}
