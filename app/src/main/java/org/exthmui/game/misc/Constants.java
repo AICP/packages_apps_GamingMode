@@ -80,7 +80,7 @@ public class Constants {
 
         public static final String MENU_OVERLAY = Settings.System.GAMING_MODE_USE_OVERLAY_MENU;
 
-        public static final String SHOW_FPSINFO = Settings.System.GAMING_MODE_SHOW_FPSINFO;
+        public static final String SHOW_FPSINFO = Settings.Global.SHOW_FPS_OVERLAY;
 
     }
 
