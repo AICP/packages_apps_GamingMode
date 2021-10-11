@@ -169,7 +169,9 @@ public class GamingService extends Service {
         mCallStatusIntent = new Intent(Constants.Broadcasts.BROADCAST_CALL_STATUS);
 
         mOverlayServiceIntent = new Intent(this, OverlayService.class);
-        mFPSServiceIntent = new Intent(this, FPSInfoService.class);
+        mFPSServiceIntent = (new Intent())
+                .setClassName("com.android.systemui",
+                "com.android.systemui.FPSInfoService");
 
         PendingIntent stopGamingIntent = PendingIntent.getBroadcast(this, 0, new Intent(Constants.Broadcasts.SYS_BROADCAST_GAMING_MODE_OFF), 0);
         Notification.Builder builder = new Notification.Builder(this, Constants.CHANNEL_GAMING_MODE_STATUS);
