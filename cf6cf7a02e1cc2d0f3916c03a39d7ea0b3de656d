@@ -16,6 +16,23 @@
       "message": "Required all three changes of the topic along with this\n",
       "revId": "cf6cf7a02e1cc2d0f3916c03a39d7ea0b3de656d",
       "serverId": "9f904cbb-a964-4fab-a7dc-5cfc4d5c238b"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "68f2b0b1_240f1842",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 3
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 3
+      },
+      "writtenOn": "2021-10-12T20:16:51Z",
+      "side": 1,
+      "message": "I thought you may want to keep this commit as a new with proper commit name and clarification instead.",
+      "revId": "cf6cf7a02e1cc2d0f3916c03a39d7ea0b3de656d",
+      "serverId": "9f904cbb-a964-4fab-a7dc-5cfc4d5c238b"
     }
   ]
 }
