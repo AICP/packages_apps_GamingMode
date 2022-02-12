@@ -83,4 +83,8 @@
     <string name="custom_seekbar_default_value">by default</string>
     <string name="custom_seekbar_default_value_to_set">Default value: <xliff:g id="v">%s</xliff:g>\nLong tap to set</string>
     <string name="custom_seekbar_default_value_is_set">Default value is set</string>
+
+    <!-- Game Props -->
+    <string name="game_props_title">Use GameProps</string>
+    <string name="game_props_summary">Spoof your device as a different model for specific games to unlock higher FPS</string>
 </resources>
