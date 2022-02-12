@@ -29,6 +29,12 @@
         android:title="@string/enable_gaming_mode"
         android:defaultValue="false" />
 
+    <com.aicp.gear.preference.SystemPropSwitchPreference
+        android:key="persist.sys.pixelprops.games"
+        android:title="@string/game_props_title"
+        android:summary="@string/game_props_summary"
+        android:defaultValue="false" />
+
     <Preference
         android:key="app_list_fragment"
         android:title="@string/gaming_mode_apps_title"
